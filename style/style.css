@@ -56,3 +56,115 @@ main {
 .banner-img img {
   width: 529px;
 }
+/* -------------------
+    blog section start
+    ------------------------ */
+.blog-container {
+  margin: 100px 0 100px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.side-menu {
+  width: 312px;
+  height: 312px;
+  background: #054082;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.menu-btn {
+  width: 252px;
+  height: 64px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 64px;
+  border-radius: 5px;
+}
+.menu-btn:hover {
+  box-shadow: 1px 1px 10px white;
+}
+
+.active-btn {
+  background: #dd0000;
+}
+
+.menu-btn a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #161616;
+  font-weight: 600;
+}
+
+/* ---------------------
+    blogs style
+    ---------------  */
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.blog {
+  width: 279px;
+  height: 362px;
+  border: 1px solid #dbdbdb;
+  border-radius: 11px;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog-info {
+  padding: 10px 15px 15px 15px;
+}
+
+.blog-btn {
+  width: 100px;
+  height: 32px;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.blog-btn:hover {
+  background: #e9e9e9;
+}
+
+.blog-btn a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #161616;
+  font-weight: 500;
+  display: block;
+}
+
+.blog-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0 0 0;
+}
+
+.blog-component {
+  display: flex;
+  margin-top: 20px;
+}
+
+.blog-component div {
+  margin-right: 30px;
+  font-size: 16px;
+  color: #161616b3;
+}
+
+.blog-component i {
+  margin-right: 8px;
+}
