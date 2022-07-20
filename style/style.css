@@ -5,3 +5,54 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+main {
+  padding: 3% 5% 0 5%;
+}
+/* -------------------------------
+        top banner style    
+----------------------------*/
+.top-banner {
+  background: #054082;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+  border-radius: 30px;
+  padding: 20px 50px 0 50px;
+}
+.banner-text {
+  width: 485px;
+  padding: 0 0 40px 0;
+}
+.banner-text h1 {
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+.banner-text p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.banner-btn {
+  text-decoration: none;
+  color: #ffffff;
+  background: #dd0000;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.banner-btn i {
+  margin-left: 10px;
+}
+
+.banner-btn:hover {
+  background: #e41212;
+  box-shadow: 0px 4px 10px rgb(255, 83, 83);
+}
+.banner-img img {
+  width: 529px;
+}
