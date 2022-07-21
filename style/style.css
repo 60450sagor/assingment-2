@@ -56,6 +56,9 @@ main {
 .banner-img img {
   width: 529px;
 }
+.banner-img2 img {
+  width: 650px;
+}
 /* -------------------
     blog section start
     ------------------------ */
@@ -211,7 +214,7 @@ footer ul:nth-child(4) li {
 }
 
 footer ul:nth-child(4) li a {
-  font-size: 15px;
+  font-size: 25px;
   line-height: 50px;
   color: #054082;
 }
@@ -221,3 +224,94 @@ footer ul:nth-child(4) li a {
 }
 
 /*    <!-- footer  aria section end --> */
+
+/* -------------------------------
+    style for match.html file 
+   ------------------------------- */
+/* top banner style */
+.top-banner-match {
+  background: #054082;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+  border-radius: 30px;
+  padding: 20px 50px 0 50px;
+}
+
+.match-banner-btn {
+  background: #df083e;
+}
+
+.match-banner-btn:hover {
+  background: #d6063a;
+  box-shadow: 0px 2px 8px #79013d;
+}
+
+/* -----Match style---- */
+.match-container {
+  margin: 100px 0 100px 0;
+  display: flex;
+  gap: 20px;
+}
+
+/*------- matchs ------- */
+.match-menu-color {
+  background: #084561;
+}
+
+.match-active-btn {
+  background: #df083e;
+}
+
+.matchs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.match {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #dbdbdb;
+  border-radius: 11px;
+  padding: 30px 15px 30px 15px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.match img {
+  width: 100%;
+}
+
+.match-info {
+  padding: 10px 15px 15px 15px;
+}
+
+.match-info h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.match-time {
+  text-align: center;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+/* --------footer style -------- */
+.match-footer {
+  background: #084561;
+}
+
+.match-footer ul:nth-child(4) li a {
+  color: #084561;
+}
